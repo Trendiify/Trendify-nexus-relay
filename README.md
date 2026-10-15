@@ -121,8 +121,8 @@ Backend و Relay را طبق ساختار مخازن تولیدشده و کد پ
 - `CF_ACCOUNT_ID`
 - `PUBLIC_URL`
 - `NEXUS_GATEWAY_SECRET`
-- `RELAY_SECRET`
-- `PORT`
+- `RAILWAY_TCP_PROXY_DOMAIN`
+- `RAILWAY_TCP_PROXY_PORT`
 
 همه متغیرها برای همه سرویس‌ها لازم نیستند؛ هر متغیر باید در سرویس مربوط به خودش قرار بگیرد.
 
@@ -257,8 +257,8 @@ Depending on the implementation, environment variables may include:
 - `CF_ACCOUNT_ID`
 - `PUBLIC_URL`
 - `NEXUS_GATEWAY_SECRET`
-- `RELAY_SECRET`
-- `PORT`
+- `RAILWAY_TCP_PROXY_DOMAIN`
+- `RAILWAY_TCP_PROXY_PORT`
 
 Not every variable belongs in every service. Configure each variable only where the corresponding source code requires it.
 
